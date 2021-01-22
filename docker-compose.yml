@@ -1,0 +1,9 @@
+version: "3"
+services:
+  web:
+    build: .
+    container_name: "nuxt-vuex"
+    ports:
+      - "8088:3000"
+    volumes:
+      - .:/usr/src/nuxt-vuex
